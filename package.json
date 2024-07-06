@@ -1,0 +1,30 @@
+{
+  "name": "minuet-server-session",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masatonakatsuji2021/minuet-server-session.git"
+  },
+  "keywords": [
+    "server",
+    "session",
+    "node",
+    "http-proxy",
+    "js-yaml"
+  ],
+  "author": "Masato Nakatsuji",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/masatonakatsuji2021/minuet-server-session/issues"
+  },
+  "homepage": "https://github.com/masatonakatsuji2021/minuet-server-session#readme",
+  "dependencies": {
+    "@types/node": "^20.12.12",
+    "minuet-cookie": "git+https://github.com/masatonakatsuji2021/minuet-cookie.git",
+    "minuet-server": "git+https://github.com/masatonakatsuji2021/minuet-server.git"
+  }
+}
